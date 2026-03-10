@@ -1,21 +1,21 @@
-   /* Navbar */
-
-  header {
-      position: sticky;
-      top: 0;
-      z-index: 1000;   
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
   }
-  
-  
 
+  body {
+      background: #f2f6fc;
+  }
+
+  /* Navbar */
   .navbar {
       background: #2c3e50;
       color: white;
       padding: 15px;
       display: flex;
       align-items: center;
-
-
   }
 
   .nav-logo {
@@ -55,8 +55,6 @@
       color: yellow
   }
 
-
-
   .nav-clock {
       display: flex;
       flex-direction: column;
@@ -78,11 +76,12 @@
       font-weight: 700;
       color: white;
   }
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+
+  body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+  }
 
 
 
@@ -111,18 +110,16 @@ body{
   footer {
       background-color: #0C2B4E;
       color: white;
-margin-top: auto;
-     
-      
+      margin-top: auto;
   }
 
   .search-container {
       display: flex;
-flex-direction: row;
+      flex-direction: row;
       justify-content: center;
       gap: 20px;
       margin: 20px;
-      align-items:center;
+      align-items: center;
   }
 
   .search {
@@ -207,8 +204,6 @@ flex-direction: row;
       margin-right: 10px;
       border-radius: 30%;
       border: 1px solid white;
-
-
   }
 
 
@@ -218,6 +213,7 @@ flex-direction: row;
       justify-content: center;
       margin-top: 40px;
       gap: 15px;
+      margin-bottom: 50px;
   }
 
   .image {
@@ -235,7 +231,7 @@ flex-direction: row;
       background-color: white;
       border-radius: 10px;
       transition: 0.3s;
-      box-shadow: 0 2px 8px rgba(0,0,0);
+      box-shadow: 0 2px 8px rgba(0, 0, 0);
 
   }
 
@@ -294,32 +290,32 @@ flex-direction: row;
           flex-wrap: wrap;
       }
 
-      .menu{
-    flex-wrap: wrap;
-    gap:10px;
-}
+      .menu {
+          flex-wrap: wrap;
+          gap: 10px;
+      }
 
-.nav-name{
-    font-size:20px;
-}
+      .nav-name {
+          font-size: 20px;
+      }
 
-.menu a{
-    font-size:16px;
-}
+      .menu a {
+          font-size: 16px;
+      }
 
-.search-container{
-    flex-direction:column;
-    align-items: center;
-}
+      .search-container {
+          flex-direction: column;
+          align-items: center;
+      }
 
-.footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+      .footer-container {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
 
-.footer-box {
-    width: 90%;
-    margin-bottom: 20px;
-}
-}
+      .footer-box {
+          width: 90%;
+          margin-bottom: 20px;
+      }
+  }

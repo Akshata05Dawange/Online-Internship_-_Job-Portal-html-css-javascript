@@ -27,13 +27,8 @@
 <button id="toggleBtn" class="toggle-btn">🌙</button>      
 </div>
 </div>
-
-
-    </header>
-    
-
-    
-</nav>
+ </header>
+    </nav>
 
 <div class="job-details">
 
@@ -250,11 +245,11 @@ document.getElementById("msg").innerHTML="Application Submitted Successfully";
 
                 <ul>
                     <li><a href="./../index.html">Home</a></li>
-                    <li><a href="./../jobs.html">Jobs</a></li>
-<li><a href="./../job-details.html"class="active">job-details</a></li>
-<li><a href="./../dashboard.html">Dashboard</a></li>
-<li><a href="./../post-job.html">Post Job</a></li>
-                    <li><a href="./../login.html">Login</a></li>
+                    <li><a href="./../pages/jobs.html">Jobs</a></li>
+<li><a href="./../pages/job-details.html"class="active">job-details</a></li>
+<li><a href="./../pages/dashboard.html">Dashboard</a></li>
+<li><a href="./../pages/post-job.html">Post Job</a></li>
+                    <li><a href="./../pages/login.html">Login</a></li>
                 </ul>
 
             </div>
@@ -328,6 +323,12 @@ document.getElementById("msg").innerHTML="Application Submitted Successfully";
 <script src="./../js/script.js"></script>
     
 
+
+<script>
+document.getElementById("toggleBtn").addEventListener("click", function () {
+document.body.classList.toggle("dark");
+});
+</script>
 </body>
 
 </html>

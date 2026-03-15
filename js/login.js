@@ -51,7 +51,7 @@ const toggleElement = document.getElementById('togglePassword');
 function toggle() {
     if (passwordElement.type == "password") {
         passwordElement.type = "text";
-        toggleElement.src = "hide.png";
+        toggleElement.src = "./../images/hide.png";
     }
     else {
         passwordElement.type = "password";
@@ -80,11 +80,11 @@ if (registerForm) {
     function toggle() {
         if (passwordElement.type == "password") {
             passwordElement.type = "text";
-            toggleElement.src = "hide.png";
+            toggleElement.src = "../images/hide.png";
         }
         else {
             passwordElement.type = "password";
-            toggleElement.src = "./../images/unhide.png";
+            toggleElement.src = "../images/unhide.png";
         }
 
     }

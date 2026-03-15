@@ -47,6 +47,10 @@ doc.save("Application.pdf");
 function viewDetails(page){
 window.location.href = page;
 }
+function showDetails(){
+alert("Opening Job Details...");
+window.location.href="job-details.html";
+}
 function applyJob(){
 
 alert("Application Submitted Successfully!");
